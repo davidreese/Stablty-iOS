@@ -118,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				F26AB95D2A1DA437009B41E3 /* StabltyApp.swift */,
-				F26AB95F2A1DA437009B41E3 /* ContentView.swift */,
+				F2796A802A1E83CB0083E3E9 /* Views */,
 				F26AB99F2A1E7233009B41E3 /* Structure */,
 				F26AB9612A1DA437009B41E3 /* Assets.xcassets */,
 				F26AB9632A1DA437009B41E3 /* Stablty.entitlements */,
@@ -159,6 +159,14 @@
 				F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */,
 			);
 			path = Structure;
+			sourceTree = "<group>";
+		};
+		F2796A802A1E83CB0083E3E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F26AB95F2A1DA437009B41E3 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
