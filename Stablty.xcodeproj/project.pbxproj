@@ -24,6 +24,9 @@
 		F26AB99A2A1E696B009B41E3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F26AB9992A1E696B009B41E3 /* FirebaseFirestore */; };
 		F26AB99C2A1E696B009B41E3 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F26AB99B2A1E696B009B41E3 /* FirebaseFirestoreSwift */; };
 		F26AB99E2A1E696B009B41E3 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = F26AB99D2A1E696B009B41E3 /* FirebaseFunctions */; };
+		F26AB9A12A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */; };
+		F26AB9A22A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */; };
+		F26AB9A32A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,7 @@
 		F26AB9792A1DA438009B41E3 /* StabltyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StabltyUITests.swift; sourceTree = "<group>"; };
 		F26AB97B2A1DA438009B41E3 /* StabltyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StabltyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F26AB98C2A1E68CF009B41E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StabltyAppCheckProviderFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 			children = (
 				F26AB95D2A1DA437009B41E3 /* StabltyApp.swift */,
 				F26AB95F2A1DA437009B41E3 /* ContentView.swift */,
+				F26AB99F2A1E7233009B41E3 /* Structure */,
 				F26AB9612A1DA437009B41E3 /* Assets.xcassets */,
 				F26AB9632A1DA437009B41E3 /* Stablty.entitlements */,
 				F26AB98C2A1E68CF009B41E3 /* GoogleService-Info.plist */,
@@ -146,6 +151,14 @@
 				F26AB97B2A1DA438009B41E3 /* StabltyUITestsLaunchTests.swift */,
 			);
 			path = StabltyUITests;
+			sourceTree = "<group>";
+		};
+		F26AB99F2A1E7233009B41E3 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */,
+			);
+			path = Structure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F26AB9602A1DA437009B41E3 /* ContentView.swift in Sources */,
+				F26AB9A12A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */,
 				F26AB95E2A1DA437009B41E3 /* StabltyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F26AB9702A1DA438009B41E3 /* StabltyTests.swift in Sources */,
+				F26AB9A22A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F26AB97C2A1DA438009B41E3 /* StabltyUITestsLaunchTests.swift in Sources */,
+				F26AB9A32A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */,
 				F26AB97A2A1DA438009B41E3 /* StabltyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,10 +462,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Stablty/Stablty.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Stablty/Preview Content\"";
-				DEVELOPMENT_TEAM = YL279DNVQD;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -470,6 +487,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stablty.Stablty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -484,10 +502,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Stablty/Stablty.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Stablty/Preview Content\"";
-				DEVELOPMENT_TEAM = YL279DNVQD;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -508,6 +527,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stablty.Stablty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -521,15 +541,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YL279DNVQD;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stablty.StabltyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -544,15 +565,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YL279DNVQD;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stablty.StabltyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -566,15 +588,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YL279DNVQD;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stablty.StabltyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -588,15 +611,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YL279DNVQD;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stablty.StabltyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
