@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F201DF812A251F2400D84C5E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F201DF802A251F2400D84C5E /* LoginView.swift */; };
+		F255A8392A3792BE00C73003 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F255A8382A3792BE00C73003 /* Errors.swift */; };
 		F26AB95E2A1DA437009B41E3 /* StabltyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB95D2A1DA437009B41E3 /* StabltyApp.swift */; };
-		F26AB9602A1DA437009B41E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB95F2A1DA437009B41E3 /* ContentView.swift */; };
+		F26AB9602A1DA437009B41E3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB95F2A1DA437009B41E3 /* HomeView.swift */; };
 		F26AB9622A1DA437009B41E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26AB9612A1DA437009B41E3 /* Assets.xcassets */; };
 		F26AB9662A1DA437009B41E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26AB9652A1DA437009B41E3 /* Preview Assets.xcassets */; };
 		F26AB9702A1DA438009B41E3 /* StabltyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB96F2A1DA438009B41E3 /* StabltyTests.swift */; };
@@ -27,6 +29,12 @@
 		F26AB9A12A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */; };
 		F26AB9A22A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */; };
 		F26AB9A32A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */; };
+		F28AB8A22A254DB9002D9870 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AB8A12A254DB9002D9870 /* LoginModel.swift */; };
+		F2B1B7932A2EE8C6000CDC93 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1B7922A2EE8C6000CDC93 /* JWT.swift */; };
+		F2B1B7952A2EE984000CDC93 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1B7942A2EE984000CDC93 /* SettingsView.swift */; };
+		F2B1B7972A2EF2EC000CDC93 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1B7962A2EF2EC000CDC93 /* Crypto.swift */; };
+		F2B1B7992A2EF358000CDC93 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1B7982A2EF358000CDC93 /* SettingsModel.swift */; };
+		F2C6060A2A2A918D001B302B /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C606092A2A918D001B302B /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +55,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F201DF802A251F2400D84C5E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F255A8382A3792BE00C73003 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		F26AB95A2A1DA437009B41E3 /* Stablty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stablty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26AB95D2A1DA437009B41E3 /* StabltyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StabltyApp.swift; sourceTree = "<group>"; };
-		F26AB95F2A1DA437009B41E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F26AB95F2A1DA437009B41E3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F26AB9612A1DA437009B41E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F26AB9632A1DA437009B41E3 /* Stablty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stablty.entitlements; sourceTree = "<group>"; };
 		F26AB9652A1DA437009B41E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -60,6 +70,12 @@
 		F26AB97B2A1DA438009B41E3 /* StabltyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StabltyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F26AB98C2A1E68CF009B41E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StabltyAppCheckProviderFactory.swift; sourceTree = "<group>"; };
+		F28AB8A12A254DB9002D9870 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		F2B1B7922A2EE8C6000CDC93 /* JWT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWT.swift; sourceTree = "<group>"; };
+		F2B1B7942A2EE984000CDC93 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F2B1B7962A2EF2EC000CDC93 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		F2B1B7982A2EF358000CDC93 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		F2C606092A2A918D001B302B /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				F26AB95D2A1DA437009B41E3 /* StabltyApp.swift */,
-				F2796A802A1E83CB0083E3E9 /* Views */,
+				F2B1B7912A2EE8B8000CDC93 /* Tools */,
+				F2796A802A1E83CB0083E3E9 /* VM */,
 				F26AB99F2A1E7233009B41E3 /* Structure */,
 				F26AB9612A1DA437009B41E3 /* Assets.xcassets */,
 				F26AB9632A1DA437009B41E3 /* Stablty.entitlements */,
@@ -157,16 +174,47 @@
 			isa = PBXGroup;
 			children = (
 				F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */,
+				F255A8382A3792BE00C73003 /* Errors.swift */,
 			);
 			path = Structure;
 			sourceTree = "<group>";
 		};
-		F2796A802A1E83CB0083E3E9 /* Views */ = {
+		F2796A802A1E83CB0083E3E9 /* VM */ = {
 			isa = PBXGroup;
 			children = (
-				F26AB95F2A1DA437009B41E3 /* ContentView.swift */,
+				F28AB8A02A254DB0002D9870 /* Models */,
+				F28AB89F2A254DA8002D9870 /* Views */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		F28AB89F2A254DA8002D9870 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F26AB95F2A1DA437009B41E3 /* HomeView.swift */,
+				F2B1B7942A2EE984000CDC93 /* SettingsView.swift */,
+				F2C606092A2A918D001B302B /* StartView.swift */,
+				F201DF802A251F2400D84C5E /* LoginView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F28AB8A02A254DB0002D9870 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F28AB8A12A254DB9002D9870 /* LoginModel.swift */,
+				F2B1B7982A2EF358000CDC93 /* SettingsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2B1B7912A2EE8B8000CDC93 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F2B1B7922A2EE8C6000CDC93 /* JWT.swift */,
+				F2B1B7962A2EF2EC000CDC93 /* Crypto.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,9 +362,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26AB9602A1DA437009B41E3 /* ContentView.swift in Sources */,
+				F26AB9602A1DA437009B41E3 /* HomeView.swift in Sources */,
+				F2B1B7952A2EE984000CDC93 /* SettingsView.swift in Sources */,
+				F28AB8A22A254DB9002D9870 /* LoginModel.swift in Sources */,
+				F2B1B7972A2EF2EC000CDC93 /* Crypto.swift in Sources */,
+				F2B1B7932A2EE8C6000CDC93 /* JWT.swift in Sources */,
+				F201DF812A251F2400D84C5E /* LoginView.swift in Sources */,
+				F2B1B7992A2EF358000CDC93 /* SettingsModel.swift in Sources */,
+				F255A8392A3792BE00C73003 /* Errors.swift in Sources */,
 				F26AB9A12A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */,
 				F26AB95E2A1DA437009B41E3 /* StabltyApp.swift in Sources */,
+				F2C6060A2A2A918D001B302B /* StartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +530,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Stablty/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9FPAW4J6WR;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -488,7 +544,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -497,7 +553,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -514,7 +572,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Stablty/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9FPAW4J6WR;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -528,7 +586,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -537,7 +595,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

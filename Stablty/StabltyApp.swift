@@ -8,6 +8,8 @@
 import SwiftUI
 import FirebaseCore
 import FirebaseAppCheck
+import AuthenticationServices
+import FirebaseAuth
 
 @main
 struct StabltyApp: App {
@@ -18,11 +20,15 @@ struct StabltyApp: App {
         AppCheck.setAppCheckProviderFactory(providerFactory)
         
         FirebaseApp.configure()
+        
+        print("Current user at launch: \(Auth.auth().currentUser)")
     }
+    
+    let startView = StartView()
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            startView
         }
     }
 }
