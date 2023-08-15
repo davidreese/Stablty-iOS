@@ -12,7 +12,7 @@ struct StartView: View {
     
     var body: some View {
         if token != nil {
-            HomeView()
+            ContentView()
         } else {
             LoginView()
         }

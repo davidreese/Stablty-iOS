@@ -17,7 +17,6 @@ struct SettingsView: View {
     @State private var isPresentingDeleteAccountConfirmation: Bool = false
     
     var body: some View {
-        NavigationView {
             List {
                 Section("Account") {
                     Button("Logout") {
@@ -54,8 +53,6 @@ struct SettingsView: View {
                 
             }
             .navigationTitle("Settings")
-            
-        }
     }
 }
 
