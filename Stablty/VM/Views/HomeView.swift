@@ -10,6 +10,8 @@ import FirebaseAuth
 
 struct HomeView: View {
     
+    @State var showingPreferencesView = false
+    
     var body: some View {
         if #available(iOS 16.0, *) {
             NavigationStack {
@@ -84,7 +86,7 @@ struct HomeView: View {
                                 .frame(width: 16)
                             ForEach(1..<5) { _ in
                                 ImageAndTextButton(title: "Title here", description: "Descripion goes here")
-                                    .frame(width: 175, height: 100)
+                                    .frame(width: 262.5, height: 150)
                             }
                             Spacer()
                                 .frame(width: 16)
@@ -106,51 +108,16 @@ struct HomeView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                        
+                        self.showingPreferencesView = true
                     } label: {
                         Image(systemName: "line.3.horizontal")
                     }
                 }
             }
-        }
-    }
-    
-    struct StabltyFoyer: View {
-        
-        var body: some View {
-            VStack {
-                HStack {
-                    Text("Home")
-                        .font(Font.custom(Fonts.poppinsBold, size: 26))
-                        .foregroundColor(Color("StabltyPurple"))
-                    //                        .font(.title)
-                    Spacer()
-                }
+            .sheet(isPresented: $showingPreferencesView) {
+                PreferencesView()
+                    .background(BackgroundClearView())
             }
-            
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Image("StabltyHead")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 45, height: 45)
-                    //                        .background(.red)
-                        .aspectRatio(contentMode: .fit)
-                }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button {
-                        
-                    } label: {
-                        Image(systemName: "line.3.horizontal")
-                    }
-                }
-            }
-        }
-        
-        /// Determines the casual name associated with the signed-in user.
-        /// - Returns: The casual name
-        private func getCasualName() -> String? {
-            return Auth.auth().currentUser?.displayName
         }
     }
 }

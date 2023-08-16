@@ -28,15 +28,13 @@ struct ImageAndTextButton: View {
                                 .aspectRatio(1.0, contentMode: .fill)
                                 .shadow(radius: StabltyUI.shadowRadius)
                                 .cornerRadius(StabltyUI.standardCornerRadius)
-                                .padding([.vertical, .leading], 10)
                                 
-                            
                             VStack {
                                 HStack {
                                     Image("Filler2")
                                         .resizable()
                                         .aspectRatio(1.0, contentMode: .fit)
-                                        .frame(width: 10, height: 10)
+                                        .frame(width: 15, height: 15)
                                     Spacer()
                                 }
                                 
@@ -44,7 +42,7 @@ struct ImageAndTextButton: View {
                                     Text(title)
                                         .multilineTextAlignment(.leading)
                                         .lineLimit(1)
-                                        .font(Font.custom(Fonts.poppinsMedium, size: 9))
+                                        .font(Font.custom(Fonts.poppinsMedium, size: 13.5))
                                         .minimumScaleFactor(0.6)
                                         .foregroundColor(.white)
                                     Spacer()
@@ -52,14 +50,13 @@ struct ImageAndTextButton: View {
                                 
                                 HStack {
                                 Text(description)
-                                    .font(Font.custom(Fonts.poppinsLight, size: 6))
+                                    .font(Font.custom(Fonts.poppinsLight, size: 9))
                                     .foregroundColor(.white)
                             Spacer()
                         }
                                 Spacer()
                             }
-                            .padding(.vertical)
-                        }
+                        }.padding()
 //                            .padding(.horizontal)
                     )
                 

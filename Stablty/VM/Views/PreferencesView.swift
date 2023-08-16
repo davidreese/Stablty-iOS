@@ -1,5 +1,5 @@
 //
-//  SettingsView.swift
+//  PreferencesView.swift
 //  Stablty
 //
 //  Created by David Reese on 6/6/23.
@@ -9,7 +9,7 @@ import SwiftUI
 import FirebaseAuth
 import _AuthenticationServices_SwiftUI
 
-struct SettingsView: View {
+struct PreferencesView: View {
     @AppStorage("token") var token: String?
     
     @StateObject private var model = SettingsModel()
@@ -18,6 +18,22 @@ struct SettingsView: View {
     
     var body: some View {
         NavigationView {
+            opaqueBody
+        }
+        /*
+            if #available(iOS 16.0, *) {
+                NavigationStack {
+                    opaqueBody
+                }
+            } else {
+                NavigationView {
+                    opaqueBody
+                }
+            }
+         */
+        }
+    
+    var opaqueBody: some View {
             List {
                 Section("Account") {
                     Button("Logout") {
@@ -53,13 +69,12 @@ struct SettingsView: View {
                 }
                 
             }
-            .navigationTitle("Settings")
-        }
+            .navigationTitle("Preferences")
     }
 }
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView()
+        PreferencesView()
     }
 }

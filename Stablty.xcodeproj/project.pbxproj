@@ -34,7 +34,7 @@
 		F28D9E3F2A5EBBA2002BFA64 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D9E3E2A5EBBA2002BFA64 /* HomeView.swift */; };
 		F28D9E412A5EBC36002BFA64 /* If.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D9E402A5EBC36002BFA64 /* If.swift */; };
 		F2B1B7932A2EE8C6000CDC93 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1B7922A2EE8C6000CDC93 /* JWT.swift */; };
-		F2B1B7952A2EE984000CDC93 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1B7942A2EE984000CDC93 /* SettingsView.swift */; };
+		F2B1B7952A2EE984000CDC93 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1B7942A2EE984000CDC93 /* PreferencesView.swift */; };
 		F2B1B7972A2EF2EC000CDC93 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1B7962A2EF2EC000CDC93 /* Crypto.swift */; };
 		F2B1B7992A2EF358000CDC93 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B1B7982A2EF358000CDC93 /* SettingsModel.swift */; };
 		F2B714882A7458E50047B301 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2B714752A7458E50047B301 /* Poppins-ExtraLight.ttf */; };
@@ -138,7 +138,7 @@
 		F28D9E3E2A5EBBA2002BFA64 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F28D9E402A5EBC36002BFA64 /* If.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = If.swift; sourceTree = "<group>"; };
 		F2B1B7922A2EE8C6000CDC93 /* JWT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWT.swift; sourceTree = "<group>"; };
-		F2B1B7942A2EE984000CDC93 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F2B1B7942A2EE984000CDC93 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
 		F2B1B7962A2EF2EC000CDC93 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 		F2B1B7982A2EF358000CDC93 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 		F2B714752A7458E50047B301 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
@@ -294,7 +294,7 @@
 				F2726C362A8BD4DC005B788E /* ImageAndTextButton.swift */,
 				F26AB95F2A1DA437009B41E3 /* ContentView.swift */,
 				F28D9E3E2A5EBBA2002BFA64 /* HomeView.swift */,
-				F2B1B7942A2EE984000CDC93 /* SettingsView.swift */,
+				F2B1B7942A2EE984000CDC93 /* PreferencesView.swift */,
 				F2C606092A2A918D001B302B /* StartView.swift */,
 				F201DF802A251F2400D84C5E /* LoginView.swift */,
 			);
@@ -570,7 +570,7 @@
 				F2726C372A8BD4DC005B788E /* ImageAndTextButton.swift in Sources */,
 				F2EAEBFA2A6B1C6F007952F2 /* Fonts.swift in Sources */,
 				F26AB9602A1DA437009B41E3 /* ContentView.swift in Sources */,
-				F2B1B7952A2EE984000CDC93 /* SettingsView.swift in Sources */,
+				F2B1B7952A2EE984000CDC93 /* PreferencesView.swift in Sources */,
 				F28AB8A22A254DB9002D9870 /* LoginModel.swift in Sources */,
 				F2B1B7972A2EF2EC000CDC93 /* Crypto.swift in Sources */,
 				F2B1B7932A2EE8C6000CDC93 /* JWT.swift in Sources */,
