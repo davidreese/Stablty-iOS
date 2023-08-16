@@ -9,7 +9,7 @@ import Foundation
 
 struct StabltyUI {
     static let shadowRadius: CGFloat = 8
-    static let standardCornerRadius: CGFloat = 12
+    static let standardCornerRadius: CGFloat = 20
 }
 
 import UIKit

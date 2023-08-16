@@ -29,7 +29,7 @@ struct HomeView: View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack {
                 // intoduction bar
-                Group {
+//                Group {
                     RoundedRectangle(cornerRadius: StabltyUI.standardCornerRadius)
                         .foregroundStyle(RadialGradient(gradient: Gradient(stops: [Gradient.Stop(color: Color(hue: 0.0, saturation: 0.0, brightness: 0.9506747693900603, opacity: 1.0), location: 0.0), Gradient.Stop(color: Color(hue: 0.1, saturation: 0.0, brightness: 1.0, opacity: 1.0), location: 1.0)]), center: UnitPoint.topLeading, startRadius: 132.40559895833334, endRadius: 585.3841145833333))
                         .shadow(color: Color(white: 0.8),radius: 3, x: 2, y: 2)
@@ -56,19 +56,44 @@ struct HomeView: View {
                      .foregroundColor(Color("StabltyPurple"))
                      }
                      */
-                }
-                .frame(height: 40)
-                .padding()
+//                }
+                .frame(height: 42)
+                .padding([.horizontal, .bottom])
+                .padding(.top, 8)
                 
-                Group {
+                VStack {
                     HStack {
                         Text("Your Top Picks")
                             .font(Font.custom(Fonts.poppinsMedium, size: 19))
                             .foregroundColor(Color("StabltyPurple"))
                         Spacer()
+                        Button {
+                            
+                        } label: {
+                            Label {
+                                Text("See More")
+                            } icon: {
+                                Image(systemName: "arrow.forward.circle")
+                            }
+                            .labelStyle(IconOnlyLabelStyle())
+                        }
                     }.padding(.horizontal)
                     
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack {
+                            Spacer()
+                                .frame(width: 16)
+                            ForEach(1..<5) { _ in
+                                DescribedImageButton(title: "Title here", description: "Descripion goes here")
+                                    .frame(width: 175)
+                            }
+                            Spacer()
+                                .frame(width: 16)
+                        }
+                    }
+                    
                 }
+                .padding(.bottom)
                 
                 Spacer()
                 
@@ -78,6 +103,17 @@ struct HomeView: View {
                             .font(Font.custom(Fonts.poppinsMedium, size: 19))
                             .foregroundColor(Color("StabltyPurple"))
                         Spacer()
+                        Button {
+                            
+                        } label: {
+                            Label {
+                                Text("See More")
+                            } icon: {
+                                Image(systemName: "arrow.forward.circle")
+                            }
+                            .labelStyle(IconOnlyLabelStyle())
+                        }
+
                     }.padding(.horizontal)
                     
                     ScrollView(.horizontal, showsIndicators: false) {
@@ -86,7 +122,7 @@ struct HomeView: View {
                                 .frame(width: 16)
                             ForEach(1..<5) { _ in
                                 ImageAndTextButton(title: "Title here", description: "Descripion goes here")
-                                    .frame(width: 262.5, height: 150)
+                                    .frame(width: 306.25, height: 175)
                             }
                             Spacer()
                                 .frame(width: 16)

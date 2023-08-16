@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F201DF812A251F2400D84C5E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F201DF802A251F2400D84C5E /* LoginView.swift */; };
 		F255A8392A3792BE00C73003 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F255A8382A3792BE00C73003 /* Errors.swift */; };
+		F262D8EC2A8D637800AAF05A /* DescribedImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262D8EB2A8D637800AAF05A /* DescribedImageButton.swift */; };
 		F26AB95E2A1DA437009B41E3 /* StabltyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB95D2A1DA437009B41E3 /* StabltyApp.swift */; };
 		F26AB9602A1DA437009B41E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB95F2A1DA437009B41E3 /* ContentView.swift */; };
 		F26AB9622A1DA437009B41E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26AB9612A1DA437009B41E3 /* Assets.xcassets */; };
@@ -120,6 +121,7 @@
 /* Begin PBXFileReference section */
 		F201DF802A251F2400D84C5E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F255A8382A3792BE00C73003 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		F262D8EB2A8D637800AAF05A /* DescribedImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescribedImageButton.swift; path = ../../../../../../Downloads/DescribedImageButton.swift; sourceTree = "<group>"; };
 		F26AB95A2A1DA437009B41E3 /* Stablty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stablty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26AB95D2A1DA437009B41E3 /* StabltyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StabltyApp.swift; sourceTree = "<group>"; };
 		F26AB95F2A1DA437009B41E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -292,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				F2726C362A8BD4DC005B788E /* ImageAndTextButton.swift */,
+				F262D8EB2A8D637800AAF05A /* DescribedImageButton.swift */,
 				F26AB95F2A1DA437009B41E3 /* ContentView.swift */,
 				F28D9E3E2A5EBBA2002BFA64 /* HomeView.swift */,
 				F2B1B7942A2EE984000CDC93 /* PreferencesView.swift */,
@@ -573,6 +576,7 @@
 				F2B1B7952A2EE984000CDC93 /* PreferencesView.swift in Sources */,
 				F28AB8A22A254DB9002D9870 /* LoginModel.swift in Sources */,
 				F2B1B7972A2EF2EC000CDC93 /* Crypto.swift in Sources */,
+				F262D8EC2A8D637800AAF05A /* DescribedImageButton.swift in Sources */,
 				F2B1B7932A2EE8C6000CDC93 /* JWT.swift in Sources */,
 				F201DF812A251F2400D84C5E /* LoginView.swift in Sources */,
 				F2B1B7992A2EF358000CDC93 /* SettingsModel.swift in Sources */,
@@ -739,7 +743,7 @@
 				CODE_SIGN_ENTITLEMENTS = Stablty/Stablty.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Stablty/Preview Content\"";
 				DEVELOPMENT_TEAM = 9FPAW4J6WR;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -782,7 +786,7 @@
 				CODE_SIGN_ENTITLEMENTS = Stablty/Stablty.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Stablty/Preview Content\"";
 				DEVELOPMENT_TEAM = 9FPAW4J6WR;
 				ENABLE_HARDENED_RUNTIME = YES;

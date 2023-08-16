@@ -20,7 +20,7 @@ struct ImageAndTextButton: View {
         Button(action: {}) {
             ZStack {
                 RoundedRectangle(cornerRadius: StabltyUI.standardCornerRadius)
-                    .foregroundStyle(LinearGradient(colors: [Color(red: 26/255, green: 41/255, blue: 128/255), Color(red: 39/255, green: 207/255, blue: 205/255)], startPoint: .leading, endPoint: .trailing))
+                    .foregroundStyle(LinearGradient(colors: [Color(red: 32/255, green: 94/255, blue: 155/255), Color(red: 33/255, green: 184/255, blue: 195/255)], startPoint: .leading, endPoint: .trailing))
                     .overlay(
                         HStack {
                             Image("Filler1")
@@ -34,7 +34,7 @@ struct ImageAndTextButton: View {
                                     Image("Filler2")
                                         .resizable()
                                         .aspectRatio(1.0, contentMode: .fit)
-                                        .frame(width: 15, height: 15)
+                                        .frame(width: 17.5, height: 17.5)
                                     Spacer()
                                 }
                                 
@@ -42,7 +42,7 @@ struct ImageAndTextButton: View {
                                     Text(title)
                                         .multilineTextAlignment(.leading)
                                         .lineLimit(1)
-                                        .font(Font.custom(Fonts.poppinsMedium, size: 13.5))
+                                        .font(Font.custom(Fonts.poppinsMedium, size: 15.75))
                                         .minimumScaleFactor(0.6)
                                         .foregroundColor(.white)
                                     Spacer()
@@ -50,13 +50,13 @@ struct ImageAndTextButton: View {
                                 
                                 HStack {
                                 Text(description)
-                                    .font(Font.custom(Fonts.poppinsLight, size: 9))
+                                        .font(Font.custom(Fonts.poppinsLight, size: 10.5))
                                     .foregroundColor(.white)
                             Spacer()
                         }
                                 Spacer()
                             }
-                        }.padding()
+                        }.padding(20)
 //                            .padding(.horizontal)
                     )
                 
