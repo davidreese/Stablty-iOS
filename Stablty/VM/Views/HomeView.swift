@@ -61,7 +61,7 @@ struct HomeView: View {
                 .padding([.horizontal, .bottom])
                 .padding(.top, 8)
                 
-                VStack {
+                VStack(spacing: 0) {
                     HStack {
                         Text("Your Top Picks")
                             .font(Font.custom(Fonts.poppinsMedium, size: 19))

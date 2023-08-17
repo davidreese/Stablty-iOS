@@ -743,7 +743,7 @@
 				CODE_SIGN_ENTITLEMENTS = Stablty/Stablty.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Stablty/Preview Content\"";
 				DEVELOPMENT_TEAM = 9FPAW4J6WR;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -786,7 +786,7 @@
 				CODE_SIGN_ENTITLEMENTS = Stablty/Stablty.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Stablty/Preview Content\"";
 				DEVELOPMENT_TEAM = 9FPAW4J6WR;
 				ENABLE_HARDENED_RUNTIME = YES;
