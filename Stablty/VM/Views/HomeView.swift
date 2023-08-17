@@ -37,7 +37,7 @@ struct HomeView: View {
                             HStack {
                                 Image("StabltyHeartPlant")
                                     .resizable()
-                                    .aspectRatio(1.0, contentMode: .fit)
+                                    .aspectRatio(contentMode: .fit)
                                     .padding([.trailing, .vertical],5)
                                 Text("Introduction to Mindfulness")
                                     .font(Font.custom(Fonts.poppinsRegular, size: 16))

@@ -25,7 +25,7 @@ struct ImageAndTextButton: View {
                         HStack {
                             Image("Filler1")
                                 .resizable()
-                                .aspectRatio(1.0, contentMode: .fill)
+                                .aspectRatio(1.0, contentMode: .fit)
                                 .shadow(radius: StabltyUI.shadowRadius)
                                 .cornerRadius(StabltyUI.standardCornerRadius)
                                 
@@ -33,7 +33,7 @@ struct ImageAndTextButton: View {
                                 HStack {
                                     Image("Filler2")
                                         .resizable()
-                                        .aspectRatio(1.0, contentMode: .fit)
+                                        .aspectRatio(contentMode: .fit)
                                         .frame(width: 17.5, height: 17.5)
                                     Spacer()
                                 }
