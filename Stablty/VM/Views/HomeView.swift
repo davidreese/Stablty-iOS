@@ -84,8 +84,11 @@ struct HomeView: View {
                             Spacer()
                                 .frame(width: 16)
                             ForEach(1..<5) { _ in
-                                DescribedImageButton(title: "Title here", description: "Descripion goes here")
-                                    .frame(width: 175)
+                                DescribedImageNavigationLink(tabs: [
+                                        UnnamedView1(content: content1),
+                                        UnnamedView1(content: content2)
+                                ], title: "Title here", description: "Descripion goes here")
+                                .frame(width: 175)
                             }
                             Spacer()
                                 .frame(width: 16)

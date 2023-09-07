@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F201DF812A251F2400D84C5E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F201DF802A251F2400D84C5E /* LoginView.swift */; };
+		F22FA3B82A96141600734267 /* Stablty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA3B72A96141600734267 /* Stablty.swift */; };
+		F22FA3BA2A9625E200734267 /* ProgressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA3B92A9625E200734267 /* ProgressionView.swift */; };
+		F22FA3BC2A962C9400734267 /* StabltyContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA3BB2A962C9400734267 /* StabltyContent.swift */; };
+		F22FA3BE2A97786F00734267 /* ProgressiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA3BD2A97786F00734267 /* ProgressiveView.swift */; };
 		F255A8392A3792BE00C73003 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F255A8382A3792BE00C73003 /* Errors.swift */; };
-		F262D8EC2A8D637800AAF05A /* DescribedImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262D8EB2A8D637800AAF05A /* DescribedImageButton.swift */; };
+		F262D8EC2A8D637800AAF05A /* DescribedImageNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262D8EB2A8D637800AAF05A /* DescribedImageNavigationLink.swift */; };
 		F26AB95E2A1DA437009B41E3 /* StabltyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB95D2A1DA437009B41E3 /* StabltyApp.swift */; };
-		F26AB9602A1DA437009B41E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB95F2A1DA437009B41E3 /* ContentView.swift */; };
+		F26AB9602A1DA437009B41E3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB95F2A1DA437009B41E3 /* MainView.swift */; };
 		F26AB9622A1DA437009B41E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26AB9612A1DA437009B41E3 /* Assets.xcassets */; };
 		F26AB9662A1DA437009B41E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26AB9652A1DA437009B41E3 /* Preview Assets.xcassets */; };
 		F26AB9702A1DA438009B41E3 /* StabltyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB96F2A1DA438009B41E3 /* StabltyTests.swift */; };
@@ -31,6 +35,7 @@
 		F26AB9A22A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */; };
 		F26AB9A32A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */; };
 		F2726C372A8BD4DC005B788E /* ImageAndTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2726C362A8BD4DC005B788E /* ImageAndTextButton.swift */; };
+		F28133242A93D0A1000AE451 /* UnnamedView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28133232A93D0A1000AE451 /* UnnamedView1.swift */; };
 		F28AB8A22A254DB9002D9870 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AB8A12A254DB9002D9870 /* LoginModel.swift */; };
 		F28D9E3F2A5EBBA2002BFA64 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D9E3E2A5EBBA2002BFA64 /* HomeView.swift */; };
 		F28D9E412A5EBC36002BFA64 /* If.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D9E402A5EBC36002BFA64 /* If.swift */; };
@@ -120,11 +125,15 @@
 
 /* Begin PBXFileReference section */
 		F201DF802A251F2400D84C5E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F22FA3B72A96141600734267 /* Stablty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stablty.swift; sourceTree = "<group>"; };
+		F22FA3B92A9625E200734267 /* ProgressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionView.swift; sourceTree = "<group>"; };
+		F22FA3BB2A962C9400734267 /* StabltyContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StabltyContent.swift; sourceTree = "<group>"; };
+		F22FA3BD2A97786F00734267 /* ProgressiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiveView.swift; sourceTree = "<group>"; };
 		F255A8382A3792BE00C73003 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		F262D8EB2A8D637800AAF05A /* DescribedImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescribedImageButton.swift; path = ../../../../../../Downloads/DescribedImageButton.swift; sourceTree = "<group>"; };
+		F262D8EB2A8D637800AAF05A /* DescribedImageNavigationLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescribedImageNavigationLink.swift; path = ../../../../../../Downloads/DescribedImageNavigationLink.swift; sourceTree = "<group>"; };
 		F26AB95A2A1DA437009B41E3 /* Stablty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stablty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26AB95D2A1DA437009B41E3 /* StabltyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StabltyApp.swift; sourceTree = "<group>"; };
-		F26AB95F2A1DA437009B41E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F26AB95F2A1DA437009B41E3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F26AB9612A1DA437009B41E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F26AB9632A1DA437009B41E3 /* Stablty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stablty.entitlements; sourceTree = "<group>"; };
 		F26AB9652A1DA437009B41E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -136,6 +145,7 @@
 		F26AB98C2A1E68CF009B41E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StabltyAppCheckProviderFactory.swift; sourceTree = "<group>"; };
 		F2726C362A8BD4DC005B788E /* ImageAndTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageAndTextButton.swift; path = "Stablty/General UI/ImageAndTextButton.swift"; sourceTree = SOURCE_ROOT; };
+		F28133232A93D0A1000AE451 /* UnnamedView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnnamedView1.swift; sourceTree = "<group>"; };
 		F28AB8A12A254DB9002D9870 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		F28D9E3E2A5EBBA2002BFA64 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F28D9E402A5EBC36002BFA64 /* If.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = If.swift; sourceTree = "<group>"; };
@@ -269,6 +279,8 @@
 			isa = PBXGroup;
 			children = (
 				F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */,
+				F22FA3B72A96141600734267 /* Stablty.swift */,
+				F22FA3BB2A962C9400734267 /* StabltyContent.swift */,
 				F255A8382A3792BE00C73003 /* Errors.swift */,
 			);
 			path = Structure;
@@ -294,9 +306,12 @@
 			isa = PBXGroup;
 			children = (
 				F2726C362A8BD4DC005B788E /* ImageAndTextButton.swift */,
-				F262D8EB2A8D637800AAF05A /* DescribedImageButton.swift */,
-				F26AB95F2A1DA437009B41E3 /* ContentView.swift */,
+				F262D8EB2A8D637800AAF05A /* DescribedImageNavigationLink.swift */,
+				F26AB95F2A1DA437009B41E3 /* MainView.swift */,
 				F28D9E3E2A5EBBA2002BFA64 /* HomeView.swift */,
+				F28133232A93D0A1000AE451 /* UnnamedView1.swift */,
+				F22FA3B92A9625E200734267 /* ProgressionView.swift */,
+				F22FA3BD2A97786F00734267 /* ProgressiveView.swift */,
 				F2B1B7942A2EE984000CDC93 /* PreferencesView.swift */,
 				F2C606092A2A918D001B302B /* StartView.swift */,
 				F201DF802A251F2400D84C5E /* LoginView.swift */,
@@ -572,15 +587,20 @@
 			files = (
 				F2726C372A8BD4DC005B788E /* ImageAndTextButton.swift in Sources */,
 				F2EAEBFA2A6B1C6F007952F2 /* Fonts.swift in Sources */,
-				F26AB9602A1DA437009B41E3 /* ContentView.swift in Sources */,
+				F26AB9602A1DA437009B41E3 /* MainView.swift in Sources */,
+				F22FA3BC2A962C9400734267 /* StabltyContent.swift in Sources */,
+				F22FA3B82A96141600734267 /* Stablty.swift in Sources */,
 				F2B1B7952A2EE984000CDC93 /* PreferencesView.swift in Sources */,
+				F28133242A93D0A1000AE451 /* UnnamedView1.swift in Sources */,
 				F28AB8A22A254DB9002D9870 /* LoginModel.swift in Sources */,
 				F2B1B7972A2EF2EC000CDC93 /* Crypto.swift in Sources */,
-				F262D8EC2A8D637800AAF05A /* DescribedImageButton.swift in Sources */,
+				F262D8EC2A8D637800AAF05A /* DescribedImageNavigationLink.swift in Sources */,
 				F2B1B7932A2EE8C6000CDC93 /* JWT.swift in Sources */,
 				F201DF812A251F2400D84C5E /* LoginView.swift in Sources */,
 				F2B1B7992A2EF358000CDC93 /* SettingsModel.swift in Sources */,
+				F22FA3BA2A9625E200734267 /* ProgressionView.swift in Sources */,
 				F255A8392A3792BE00C73003 /* Errors.swift in Sources */,
+				F22FA3BE2A97786F00734267 /* ProgressiveView.swift in Sources */,
 				F2EAEBF82A6A96B6007952F2 /* UI.swift in Sources */,
 				F26AB9A12A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */,
 				F28D9E412A5EBC36002BFA64 /* If.swift in Sources */,
@@ -743,7 +763,7 @@
 				CODE_SIGN_ENTITLEMENTS = Stablty/Stablty.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Stablty/Preview Content\"";
 				DEVELOPMENT_TEAM = 9FPAW4J6WR;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -786,7 +806,7 @@
 				CODE_SIGN_ENTITLEMENTS = Stablty/Stablty.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Stablty/Preview Content\"";
 				DEVELOPMENT_TEAM = 9FPAW4J6WR;
 				ENABLE_HARDENED_RUNTIME = YES;
