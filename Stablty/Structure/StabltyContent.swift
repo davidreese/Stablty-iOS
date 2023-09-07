@@ -10,5 +10,5 @@ import SwiftUI
 
 // sample content
 
-let content1 = StabltyContent(mainImage: Image("Filler1"))
-let content2 = StabltyContent(mainImage: Image("Filler3"))
+let content1 = StabltyContent(title: "Example 1", mainImage: Image("Filler1"))
+let content2 = StabltyContent(title: "Example 2", mainImage: Image("Filler3"))

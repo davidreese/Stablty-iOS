@@ -42,15 +42,16 @@ struct UnnamedView1: ProgressiveView {
                     
                 Group {
                     HStack {
-                        Text("Insert title here")
+                        Text(content.title)
                             .font(Font.custom(Fonts.poppinsMedium, size: 18))
                             .multilineTextAlignment(.leading)
                         Spacer()
                     }
                     
-                    Rectangle()
+                    Blur(style: .dark)
+                        .cornerRadius(StabltyUI.standardCornerRadius)
                         .overlay {
-                            Text("Unclear how to predict what belongs in this box")
+                            Text("Content not available yet")
                                 .foregroundColor(.white)
                         }
                 }.padding()
@@ -70,6 +71,6 @@ struct UnnamedView1: ProgressiveView {
 
 struct UnnamedView_Previews: PreviewProvider {
     static var previews: some View {
-        UnnamedView1(content: StabltyContent(mainImage: Image("Filler1")))
+        UnnamedView1(content: StabltyContent(title: "Test", mainImage: Image("Filler1")))
     }
 }
