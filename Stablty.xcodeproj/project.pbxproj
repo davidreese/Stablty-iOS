@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F201DF812A251F2400D84C5E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F201DF802A251F2400D84C5E /* LoginView.swift */; };
 		F22FA3B82A96141600734267 /* Stablty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA3B72A96141600734267 /* Stablty.swift */; };
-		F22FA3BA2A9625E200734267 /* ProgressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA3B92A9625E200734267 /* ProgressionView.swift */; };
 		F22FA3BC2A962C9400734267 /* StabltyContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA3BB2A962C9400734267 /* StabltyContent.swift */; };
 		F22FA3BE2A97786F00734267 /* ProgressiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FA3BD2A97786F00734267 /* ProgressiveView.swift */; };
 		F255A8392A3792BE00C73003 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F255A8382A3792BE00C73003 /* Errors.swift */; };
@@ -126,7 +125,6 @@
 /* Begin PBXFileReference section */
 		F201DF802A251F2400D84C5E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F22FA3B72A96141600734267 /* Stablty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stablty.swift; sourceTree = "<group>"; };
-		F22FA3B92A9625E200734267 /* ProgressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionView.swift; sourceTree = "<group>"; };
 		F22FA3BB2A962C9400734267 /* StabltyContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StabltyContent.swift; sourceTree = "<group>"; };
 		F22FA3BD2A97786F00734267 /* ProgressiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiveView.swift; sourceTree = "<group>"; };
 		F255A8382A3792BE00C73003 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
@@ -310,7 +308,6 @@
 				F26AB95F2A1DA437009B41E3 /* MainView.swift */,
 				F28D9E3E2A5EBBA2002BFA64 /* HomeView.swift */,
 				F28133232A93D0A1000AE451 /* UnnamedView1.swift */,
-				F22FA3B92A9625E200734267 /* ProgressionView.swift */,
 				F22FA3BD2A97786F00734267 /* ProgressiveView.swift */,
 				F2B1B7942A2EE984000CDC93 /* PreferencesView.swift */,
 				F2C606092A2A918D001B302B /* StartView.swift */,
@@ -598,7 +595,6 @@
 				F2B1B7932A2EE8C6000CDC93 /* JWT.swift in Sources */,
 				F201DF812A251F2400D84C5E /* LoginView.swift in Sources */,
 				F2B1B7992A2EF358000CDC93 /* SettingsModel.swift in Sources */,
-				F22FA3BA2A9625E200734267 /* ProgressionView.swift in Sources */,
 				F255A8392A3792BE00C73003 /* Errors.swift in Sources */,
 				F22FA3BE2A97786F00734267 /* ProgressiveView.swift in Sources */,
 				F2EAEBF82A6A96B6007952F2 /* UI.swift in Sources */,
