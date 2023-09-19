@@ -58,12 +58,12 @@ struct UnnamedView1: ProgressiveView {
                 Spacer()
             }
             .edgesIgnoringSafeArea(.top)
-            
-            .background(
-                    Image("Background1")
-                        .resizable()
-                        .ignoresSafeArea()
-                )
+            .background(.clear)
+//            .background(
+//                    Image("Background1")
+//                        .resizable()
+//                        .ignoresSafeArea()
+//                )
         }
     }
     
