@@ -29,6 +29,21 @@ struct MainView: View {
                         Label("Home", systemImage: "house")
                     }
                     .tag(0)
+                
+                SkillsView()
+                    .tabItem {
+                        Label {
+                            Text("Master a Skill")
+                        } icon: {
+                            if selection == 1 {
+                                ScaledImage(name: "MasterASkillIcon", size: CGSize(width: 43, height: 35))
+                            } else {
+                                ScaledImage(name: "MasterASkillIconGray", size: CGSize(width: 43, height: 35))
+                            }
+                        }
+
+                    }
+                    .tag(1)
             }
             .overlay {
                 if showTabBar {
