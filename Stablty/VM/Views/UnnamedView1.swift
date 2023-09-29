@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct UnnamedView1: ProgressiveView {
-    
+    var continueButtonView: (Continue)?
     
     var id: ObjectIdentifier
     
@@ -40,7 +40,7 @@ struct UnnamedView1: ProgressiveView {
                     .cornerRadius(StabltyUI.standardCornerRadius, corners: [.bottomLeft, .bottomRight])
                     .shadow(radius: StabltyUI.shadowRadius)
                     
-                Group {
+                VStack {
                     HStack {
                         Text(content.title)
                             .font(Font.custom(Fonts.poppinsMedium, size: 18))
@@ -54,6 +54,8 @@ struct UnnamedView1: ProgressiveView {
                             Text("Content not available yet")
                                 .foregroundColor(.white)
                         }
+                    
+                    continueButtonView
                 }.padding()
                 Spacer()
             }

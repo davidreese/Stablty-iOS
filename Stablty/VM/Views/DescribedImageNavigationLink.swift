@@ -30,12 +30,10 @@ struct DescribedImageNavigationLink<Content: ProgressiveView>: View {
                 NavigationLink {
                     TabView(selection: $tabSelection) {
                         ForEach(tabs.indices) { index in
-                            tabs[index]
-                                .tag(index)
-                                .overlay {
-                                    if tabSelection < tabs.count - 1 {
-                                        VStack {
-                                            Spacer()
+                            if index < tabs.count - 1 {
+                                tabs[index]
+                                    .setContinueButton(
+                                        AnyView(
                                             HStack {
                                                 Spacer()
                                                 Button {
@@ -50,9 +48,34 @@ struct DescribedImageNavigationLink<Content: ProgressiveView>: View {
                                                 .padding(.horizontal)
                                                 .buttonStyle(.borderedProminent)
                                             }
-                                        }
-                                    }
-                                }
+                                                ) as! Content.Continue)
+                                    .tag(index)
+                            } else {
+                                tabs[index]
+                                    .tag(index)
+                            }
+                                
+//                                .overlay {
+//                                    if tabSelection < tabs.count - 1 {
+//                                        VStack {
+//                                            Spacer()
+//                                            HStack {
+//                                                Spacer()
+//                                                Button {
+//                                                    withAnimation {
+//                                                        self.tabSelection += 1
+//                                                    }
+//                                                } label: {
+//                                                    Text("Continue")
+//                                                        .font(Font.custom(Fonts.poppinsLight, size: 14))
+//                                                    Image(systemName: "arrow.right.circle")
+//                                                }
+//                                                .padding(.horizontal)
+//                                                .buttonStyle(.borderedProminent)
+//                                            }
+//                                        }
+//                                    }
+//                                }
                         }
                         
                         
