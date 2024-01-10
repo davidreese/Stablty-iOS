@@ -33,6 +33,7 @@ struct HomeView: View {
                     RoundedRectangle(cornerRadius: StabltyUI.standardCornerRadius)
                         .foregroundStyle(RadialGradient(gradient: Gradient(stops: [Gradient.Stop(color: Color(hue: 0.0, saturation: 0.0, brightness: 0.9506747693900603, opacity: 1.0), location: 0.0), Gradient.Stop(color: Color(hue: 0.1, saturation: 0.0, brightness: 1.0, opacity: 1.0), location: 1.0)]), center: UnitPoint.topLeading, startRadius: 132.40559895833334, endRadius: 585.3841145833333))
                         .shadow(color: Color(white: 0.8),radius: 3, x: 2, y: 2)
+                        .frame(height: 43)
                         .overlay {
                             HStack {
                                 Image("StabltyHeartPlant")

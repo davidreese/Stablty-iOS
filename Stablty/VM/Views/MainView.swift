@@ -30,7 +30,7 @@ struct MainView: View {
                     }
                     .tag(0)
                 
-                SkillsView()
+                SkillsView(skills: [Skill(title: "Test 1", mainImage: Image("Filler1")), Skill(title: "Test 2", mainImage: Image("Filler3")), Skill(title: "Test 3", mainImage: Image("Filler1")), Skill(title: "Test 4", mainImage: Image("Filler1")), Skill(title: "Test 5", mainImage: Image("Filler1")), Skill(title: "Test 6", mainImage: Image("Filler1")), Skill(title: "Test 7", mainImage: Image("Filler1")), Skill(title: "Test 8", mainImage: Image("Filler1")), Skill(title: "Test 9", mainImage: Image("Filler1")), Skill(title: "Test 10", mainImage: Image("Filler1")), Skill(title: "Test 11", mainImage: Image("Filler1")), Skill(title: "Test 12", mainImage: Image("Filler1")), Skill(title: "Test 13", mainImage: Image("Filler1")), Skill(title: "Test 14", mainImage: Image("Filler1"))])
                     .tabItem {
                         Label {
                             Text("Master a Skill")

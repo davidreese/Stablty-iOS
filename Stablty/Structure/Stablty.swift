@@ -28,3 +28,14 @@ class StabltyContent {
         self.mainImage = mainImage
     }
 }
+
+// TODO: Figure out if this is the same thing as a StabltyContent
+class Skill {
+    let title: String
+    let mainImage: Image
+    
+    init(title: String, mainImage: Image) {
+        self.title = title
+        self.mainImage = mainImage
+    }
+}
