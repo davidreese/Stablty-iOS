@@ -34,6 +34,8 @@ struct SkillsView: View {
                         .padding(.horizontal)
                         .foregroundColor(Color("StabltyPurple"))
                     }
+                
+//                Spacer()
 
                 ForEach(0..<skills.count, id: \.self) { index in
                     if index % 2 == 0 {
@@ -54,15 +56,18 @@ struct SkillsView: View {
         }
     }
     
+    /// Links to a
     struct SkillLink: View {
-        let skill: Skill
+        private let skill: Skill
         
         init(skill: Skill) {
             self.skill = skill
         }
         
         var body: some View {
-            Button(action: {}) {
+            Button(action: {
+                
+            }) {
                 ZStack {
                     skill.mainImage
                         .resizable()
