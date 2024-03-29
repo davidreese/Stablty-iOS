@@ -71,7 +71,7 @@ struct UnnamedView1: ProgressiveView {
     
 }
 
-struct UnnamedView_Previews: PreviewProvider {
+struct UnnamedView1_Previews: PreviewProvider {
     static var previews: some View {
         UnnamedView1(content: StabltyContent(title: "Test", mainImage: Image("Filler1")))
     }

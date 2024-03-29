@@ -59,6 +59,7 @@ struct SkillsView: View {
     /// Links to a
     struct SkillLink: View {
         private let skill: Skill
+        @State private var showingSkillView = false
         
         init(skill: Skill) {
             self.skill = skill
@@ -66,7 +67,7 @@ struct SkillsView: View {
         
         var body: some View {
             Button(action: {
-                
+                showingSkillView = true
             }) {
                 ZStack {
                     skill.mainImage
@@ -85,11 +86,10 @@ struct SkillsView: View {
             .frame(height: 100)
             .cornerRadius(StabltyUI.standardCornerRadius)
             .clipped()
-//            .overlay {
-//                NavigationLink("") {
-//                    EmptyView()
-//                }
-//            }
+            .fullScreenCover(isPresented: $showingSkillView, content: {
+                UnnamedView2()
+            })
+
 
             
         }
