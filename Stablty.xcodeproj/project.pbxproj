@@ -33,6 +33,8 @@
 		F26AB9A22A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */; };
 		F26AB9A32A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */; };
 		F270667B2BB6EC7B00CE4C51 /* UnnamedView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270667A2BB6EC7B00CE4C51 /* UnnamedView2.swift */; };
+		F270667D2BB6FC2600CE4C51 /* FancySearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270667C2BB6FC2600CE4C51 /* FancySearchBar.swift */; };
+		F270667F2BB6FDF900CE4C51 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270667E2BB6FDF900CE4C51 /* SearchBar.swift */; };
 		F2726C372A8BD4DC005B788E /* ImageAndTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2726C362A8BD4DC005B788E /* ImageAndTextButton.swift */; };
 		F28133242A93D0A1000AE451 /* UnnamedView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28133232A93D0A1000AE451 /* UnnamedView1.swift */; };
 		F28AB8A22A254DB9002D9870 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28AB8A12A254DB9002D9870 /* LoginModel.swift */; };
@@ -147,6 +149,8 @@
 		F26AB98C2A1E68CF009B41E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F26AB9A02A1E7245009B41E3 /* StabltyAppCheckProviderFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StabltyAppCheckProviderFactory.swift; sourceTree = "<group>"; };
 		F270667A2BB6EC7B00CE4C51 /* UnnamedView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnnamedView2.swift; sourceTree = "<group>"; };
+		F270667C2BB6FC2600CE4C51 /* FancySearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancySearchBar.swift; sourceTree = "<group>"; };
+		F270667E2BB6FDF900CE4C51 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		F2726C362A8BD4DC005B788E /* ImageAndTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageAndTextButton.swift; path = "Stablty/General UI/ImageAndTextButton.swift"; sourceTree = SOURCE_ROOT; };
 		F28133232A93D0A1000AE451 /* UnnamedView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnnamedView1.swift; sourceTree = "<group>"; };
 		F28AB8A12A254DB9002D9870 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
@@ -322,6 +326,8 @@
 				F2DB54E02AC6754300AD1504 /* SkillsView.swift */,
 				F28133232A93D0A1000AE451 /* UnnamedView1.swift */,
 				F270667A2BB6EC7B00CE4C51 /* UnnamedView2.swift */,
+				F270667C2BB6FC2600CE4C51 /* FancySearchBar.swift */,
+				F270667E2BB6FDF900CE4C51 /* SearchBar.swift */,
 				F22FA3BD2A97786F00734267 /* ProgressiveView.swift */,
 				F2B1B7942A2EE984000CDC93 /* PreferencesView.swift */,
 				F2C606092A2A918D001B302B /* StartView.swift */,
@@ -612,8 +618,10 @@
 				F2DB54E32AC677DD00AD1504 /* ScaledImage.swift in Sources */,
 				F2DB54E72AC70E9400AD1504 /* Tools.swift in Sources */,
 				F201DF812A251F2400D84C5E /* LoginView.swift in Sources */,
+				F270667D2BB6FC2600CE4C51 /* FancySearchBar.swift in Sources */,
 				F2B1B7992A2EF358000CDC93 /* SettingsModel.swift in Sources */,
 				F2DB54E12AC6754300AD1504 /* SkillsView.swift in Sources */,
+				F270667F2BB6FDF900CE4C51 /* SearchBar.swift in Sources */,
 				F255A8392A3792BE00C73003 /* Errors.swift in Sources */,
 				F22FA3BE2A97786F00734267 /* ProgressiveView.swift in Sources */,
 				F2EAEBF82A6A96B6007952F2 /* UI.swift in Sources */,
